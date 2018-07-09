@@ -1,5 +1,5 @@
 language: python
 install: pip install -r ci/pip-requirements.txt
 script:
-- ./ci/verify
+- ./ci/verify -s
 - ./ci/deploy
